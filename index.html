@@ -1,2 +1,91 @@
-# tebogomonamodi08.github.io
-My Portfolio. Jump into space.
+<!--
+I would like to thank everyone who contributed to my knowledge of web development, most importantly my web development facillitor Mrs Given Ledwaba at DynamicDNA I am thankful
+to Thabang my mentor, to the sources that contributed to the libraries I used in this development and to W3 schools for an amazing web dev course.
+
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+   <link rel="stylesheet" href="W3.css" />
+  <title>About</title>
+  
+  <style>
+    
+	body{
+	 background-image:url('space.jpg');
+	 background-size:cover;
+	}
+	
+	          
+#float {
+    position:relative;
+    -webkit-animation: floatBubble 11s 1   normal ease-out;
+    animation: floatBubble 11s 1  normal ease-out;
+    animation: floatBubble 11s 1  normal ease-out;
+}
+@-webkit-keyframes floatBubble {
+    0% {
+        top:500px;
+    }
+    100% {
+        top: 5px;
+    }
+}
+@keyframes floatBubble {
+    0% {
+        top:500px;
+    }
+    100% {
+        top: 5px;
+    }
+}
+    
+   </style>
+</head>
+
+<body>
+
+    
+ 
+<div class="w3-top w3-hide-small w3-padding-large w3-bar w3-transparent w3-margin-bottom w3-text-white">
+<a href="Contact.html" class="w3-bar-item w3-right w3-button w3-hover-amber">CONTACT</a>
+<a href="#Project.html" class="w3-bar-item w3-right w3-button w3-hover-amber">PROJECTS</a>
+<a href="About.html" class="w3-bar-item w3-right w3-button w3-hover-amber">ABOUT</a>
+<a href="#Hero_fin.html" class="w3-bar-item w3-right w3-button w3-hover-amber">HOME</a>
+</div>
+
+<div class="w3-row w3-padding-large w3-margin">
+<div class="w3-col w3-padding s3">
+  <div id="float">
+    <img src="astronaut.png" height="150px" width="150px" alt="flying astronaut">
+</div>
+
+</div>
+
+<div class="w3-col w3-display-right w3-xlarge w3-text-white w3-right s9">
+ <strong> <p style="font-size:30px;">HELLO WORLD!</p>
+     <p>My name is Tebogo Monamodi</p>
+	 <p>And I am a <span class="type" style="color:orange"></span></p></strong>
+</div>
+</div>
+
+ <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+ 
+ <script> 
+  var typed = new Typed(".type",{
+  strings: ["Front-end Developer","Data Engineer", "Disruptor", "Full Stack Developer"],
+  typeSpeed: 170,
+  backspeed: 170,
+  loop:true,
+  })
+  </script>
+
+
+</body>
+
+</html>
